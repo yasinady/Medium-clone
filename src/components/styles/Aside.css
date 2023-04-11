@@ -1,0 +1,174 @@
+.aside.fix{
+    position: sticky;
+    top: 107px;
+    
+}
+
+
+
+.y{
+    display: block;
+}
+
+.aside-container{
+    top: 107px;
+    position: sticky;
+}
+.aside-header{
+    display: block;
+
+}
+
+.aside-text{
+    padding-bottom: 16px;
+}
+
+.aside-h2{
+    letter-spacing: 0;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(41, 41, 41, 1);
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+}
+
+.aside-link{
+    cursor: pointer;
+    border: none;
+    margin-right: 8px;
+    padding: 0;    
+    
+    
+}
+.söl{
+    align-items: flex-start;
+    flex-wrap: wrap;
+    display: flex;
+    
+}
+.lös{
+    margin-bottom: 10px;
+    display: flex;
+
+}
+
+
+
+.aside-div{
+    border-radius: 100px;
+    border:1px solid rgba(230, 230, 230, 1);
+    padding: 8px 16px;
+    white-space: nowrap;
+    transition: background 300ms ease;
+    background-color: rgba(242, 242, 242, 1);
+    position: relative;
+    color: rgba(41, 41, 41, 1);
+    font-size: 14px;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.aside-p-text{
+    font-size: 16px;
+    color: rgba(117, 117, 117, 1);
+    line-height: 20px;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    letter-spacing: 0;
+}
+.köl{
+    margin-top: 14px;
+    display: block;
+}
+
+.lök{
+    color: rgb(26, 137, 23);
+    line-height: 20px;
+    font-size: 14px;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+.j{
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    font-weight: inherit;
+    letter-spacing: inherit;
+    font-family: inherit;
+    color: inherit;
+    border: inherit;
+    fill: inherit;
+    font-size: inherit;
+}
+
+.aside-menu{
+    padding: 24px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.aside-menu-item{
+    margin-right: 26px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.aside-menu-link{
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    font-weight: inherit;
+    letter-spacing: inherit;
+    font-family: inherit;
+    fill: inherit;
+    color: inherit;
+    border: inherit;
+}
+
+.aside-menu-p{
+    color: rgba(117, 117, 117, 1);
+    line-height: 20px;
+    font-size: 14px;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+
+
+@media screen and (min-width: 1080px){
+
+
+    .aside {
+        grid-column: 9 /span 4;
+        grid-row-start: 1;
+    }
+
+    .aside-con{
+        display: block;
+    }
+
+  
+    .aside-header {
+        border-bottom: 1px solid rgba(231, 231, 231, 1);
+        padding-bottom: 32px;
+    }
+
+}
+
+
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+aside{
+    display: block;
+}

@@ -1,0 +1,53 @@
+.custom{
+    background-color: #FFC017;
+    width: 100%;
+    height: 420px;
+}
+
+.section{
+    
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 370px;    
+}
+
+
+
+.h2{
+    font-size: 6.25rem;
+    font-weight: 500;
+    letter-spacing: -0.05em;
+    line-height: 95px;
+    margin-bottom: 45px;
+    
+    margin-top: 70px;
+}
+
+.h3{
+    font-size: 25px;
+    font-family: inherit;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 35px;
+    
+
+
+}
+
+
+
+.btn{
+    background-color: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 10px 45px;
+    border-radius: 25px;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid rgba(25, 25, 25, 1);
+    cursor: pointer;
+}
