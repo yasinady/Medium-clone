@@ -14,7 +14,7 @@ function Aside() {
     
 
     window.addEventListener('scroll', asideFixed)
-
+  
 
   return (
             <aside className='aside'>
